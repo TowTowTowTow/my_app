@@ -59,4 +59,6 @@ These four simple commands:
 will enable you to create a history of your code and remove all sorts of risk in your 
 development workflow.
 
-
+??? Questions ???
+1) Can I see the versions of commits that I made by the message name?
+2) Where do I see the versions of commits that I made by the message name?
