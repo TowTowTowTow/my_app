@@ -59,6 +59,23 @@ These four simple commands:
 will enable you to create a history of your code and remove all sorts of risk in your 
 development workflow.
 
+also git log shows you your
+
 ??? Questions ???
 1) Can I see the versions of commits that I made by the message name?
-2) Where do I see the versions of commits that I made by the message name?
+2) Where do I see these verious commits that I made by the message name?
+3) Why do I make the commit messages if not for reference?
+4) Is the difference between a directory and a repository that a repository is a specific
+    kind of directory that had the .git files added to it? Are they synonymous terms when
+    applied in the git context?
+
+
+
+
+Remote Repositories (on github)
+
+1)  Log in and create a new repository on github. Name it whatever.
+2)  Add the remote repository to your local "working tree". Navigate to the directory 
+    of your local repository.
+        git remote add origin git@github.com:your_name/direct_reposit_name.git
+            This adds a "remote". The syntax is git 
