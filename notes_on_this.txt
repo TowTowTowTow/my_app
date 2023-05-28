@@ -54,9 +54,33 @@
 
 
 
-These four simple commands:
-*** init, add, commit, and checkout ***
-will enable you to create a history of your code and remove all sorts of risk in your 
-development workflow.
+@ These four simple commands:
+    *** init, add, commit, and checkout ***
+    will enable you to create a history of your code and remove all sorts of risk in your 
+    development workflow.
+@ also git log shows you your commit history for the current branch
+@ also git checkout -b new_branch_name makes a new branch
+
+??? Questions ???
+1) Can I see the versions of commits that I made by the message name?
+            - Yes. Also refer to them as "commits" to avoid confusion.
+2) Where do I see these verious commits that I made by the message name?
+            - git log - In the command line of the directory of the repository
+3) Why do I make the commit messages if not for reference?
+            - Yes for reference
+4) Is the difference between a directory and a repository that a repository is a specific
+    kind of directory that had the .git files added to it? Are they synonymous terms when
+    applied in the git context?
+            - Yes. Kind of, but no. 
+5) Can you and how can you rollback to a prior commit on any given branch?
 
 
+
+
+Remote Repositories (on github)
+
+1)  Log in and create a new repository on github. Name it whatever.
+2)  Add the remote repository to your local "working tree". Navigate to the directory 
+    of your local repository.
+        git remote add origin git@github.com:your_name/direct_reposit_name.git
+            This adds a "remote". The syntax is git 
