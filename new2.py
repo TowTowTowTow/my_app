@@ -1,1 +1,2 @@
-if TRUE == TRUE; print('hello world2')
+if True == True: 
+    print('hello world2')
