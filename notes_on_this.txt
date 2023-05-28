@@ -54,12 +54,12 @@
 
 
 
-These four simple commands:
-*** init, add, commit, and checkout ***
-will enable you to create a history of your code and remove all sorts of risk in your 
-development workflow.
-
-also git log shows you your
+@ These four simple commands:
+    *** init, add, commit, and checkout ***
+    will enable you to create a history of your code and remove all sorts of risk in your 
+    development workflow.
+@ also git log shows you your commit history for the current branch
+@ also git checkout -b new_branch_name makes a new branch
 
 ??? Questions ???
 1) Can I see the versions of commits that I made by the message name?
