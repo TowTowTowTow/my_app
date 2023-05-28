@@ -1,0 +1,30 @@
+            https://ryanflorence.com/git-for-beginners/
+
+1) Make a directory and navigate into it.
+
+2) Create the repository. (Turn the directory into a repository.)
+        git init
+            This initializes the Git repository.
+
+3) Make files in the ***directory/repositrory***
+        echo 'this is a readme file'>README
+        echo "'''this is a python file''' print('hallow world')">new.py
+        touch databasemammmajamma.db
+            These create a README file, python file, and a database file. The creation 
+            of these specific files and their types are not relevant to the Git process
+            as long as we're making files that are to be commited. 
+
+4) This could be done at any point, but to see what's going on we'll look at the
+   status.
+        git status
+            The status tells us which files aren't being tracked, have been modified,
+            deleted, ect.
+
+5) "Stage" your changes.
+        git add README
+        git add new.py
+        git add databasemammmajamma.db
+        git add .
+            "git add whatever.file" is telling git to include whatever.file into the next 
+            commit. We can pass in any specific file this way or use "git add ." to catch
+            everything.
