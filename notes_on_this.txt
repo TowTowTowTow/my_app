@@ -1,12 +1,12 @@
             https://ryanflorence.com/git-for-beginners/
 
-1) Make a directory and navigate into it.
+1)  Make a directory and navigate into it.
 
-2) Create the repository. (Turn the directory into a repository.)
+2)  Create the repository. (Turn the directory into a repository.)
         git init
             This initializes the Git repository.
 
-3) Make files in the ***directory/repositrory***
+3)  Make files in the ***directory/repositrory***
         echo 'this is a readme file'>README
         echo "'''this is a python file''' print('hallow world')">new.py
         touch databasemammmajamma.db
@@ -14,13 +14,13 @@
             of these specific files and their types are not relevant to the Git process
             as long as we're making files that are to be commited. 
 
-4) This could be done at any point, but to see what's going on we'll look at the
+4)  This could be done at any point, but to see what's going on we'll look at the
    status.
         git status
             The status tells us which files aren't being tracked, have been modified,
             deleted, ect.
 
-5) "Stage" your changes.
+5)  "Stage" your changes.
         git add README
         git add new.py
         git add databasemammmajamma.db
@@ -28,3 +28,35 @@
             "git add whatever.file" is telling git to include whatever.file into the next 
             commit. We can pass in any specific file this way or use "git add ." to catch
             everything.
+
+6)  Commit the changes.
+        git commit -m'This be my first commit evarr"
+            Anything that was "staged", or added, gets committed to your repository. A
+            "commit" is a short snapshot of your code. Almost like you make a zip file 
+            and store it somewhere (except way more efficent.) It will always be there;
+            you can refer to it whenever you want. 
+
+7)  Repeat steps 5-6 at will.
+        git add .
+        git commit -m'whatever message you want'
+            Create more files. Add the files. (Optiponal check status). Commit the added
+            files.
+
+8)  You can also skip the "add" step provided that you only have modified files and
+    haven't created any new ones.
+        git commit -a -m'whatever message you want'
+
+
+9)  Revert some changes.
+        git checkout README
+            Back in your text editor the file should be back to how it was the last time
+            you made a commit. 
+
+
+
+These four simple commands:
+*** init, add, commit, and checkout ***
+will enable you to create a history of your code and remove all sorts of risk in your 
+development workflow.
+
+
